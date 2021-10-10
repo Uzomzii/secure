@@ -1,2 +1,2 @@
-eb: gunicorn secure.wsgi
+web: gunicorn secure.wsgi
 release: python manage.py migrate
